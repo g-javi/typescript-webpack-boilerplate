@@ -1,0 +1,42 @@
+{
+  "name": "typescript-webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "Starter template for a TypeScript and Webpack project",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --display-error-details",
+    "lint": "tslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjavi1/typescript-webpack-boilerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack"
+  ],
+  "author": "Glen Javier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gjavi1/typescript-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gjavi1/typescript-webpack-boilerplate#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "ts-loader": "^4.2.0",
+    "tslint": "^5.9.1",
+    "tslint-eslint-rules": "^5.1.0",
+    "typescript": "^2.8.1",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
